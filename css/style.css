@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body {
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+
+  /* vertical-align: middle; */
+}
+
+#clock {
+  margin: 10px auto;
+
+  font-size: 100px;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+button {
+  border-radius: 5px;  
+  border: 1px solid beige;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: beige;
+  margin: 10px;
+  padding: 5px;
+}
+
+#todo-form input {
+  margin: 20px auto;
+}
+
+#login-form form{
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.footer {
+  position: absolute;
+  top: 90%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#weather {
+  margin-left: 50px;
+}
+
+.white-font {
+  color: whitesmoke;
+}
+
+.hidden {
+  display: none;
+}
